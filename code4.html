@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        .pin {
+  width: 200px;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.pin:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pin img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.pin .details {
+  padding: 10px;
+  text-align: center;
+}
+
+.pin .details h2 {
+  margin: 5px 0;
+}
+
+.pin .details p {
+  margin: 0;
+  color: #666;
+}
+    </style>
+</head>
+<body>
+    <div id="pin-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
